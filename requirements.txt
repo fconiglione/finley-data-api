@@ -5,3 +5,4 @@ gunicorn
 requests
 huggingface_hub
 python-dotenv
+openai
