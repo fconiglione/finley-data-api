@@ -11,6 +11,7 @@ CORS(app)
 
 @app.route('/v1/api/ai/respond', methods=['POST'])
 def respond():
+    print("Starting the AI response service...")
     data = request.get_json()
     user_message = data.get('message')
 
