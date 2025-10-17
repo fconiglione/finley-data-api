@@ -112,3 +112,7 @@ def respond():
     except Exception as e:
         print("Error:", e)
         return jsonify({"error": "Server error"}), 500
+    
+# running the app
+if __name__ == '__main__':
+    app.run(debug=True)
